@@ -48,6 +48,9 @@ export const Experience = () => {
         ref={controlsRef}
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 6}
+        zoomSpeed={0} // Disable zooming
+        maxDistance={5} // Optional: Limit maximum zoom-out distance
+        minDistance={5} // Optional: Fix zoom level
       />
       <MonsterStage
         texture={
